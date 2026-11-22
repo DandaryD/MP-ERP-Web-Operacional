@@ -1,0 +1,13 @@
+name = "mp-moveis-erp-web"
+main = "worker.js"
+compatibility_date = "2026-11-22"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mp-moveis-erp"
+database_id = "3e9c4dca-5119-4f27-8891-256bed42130f"
